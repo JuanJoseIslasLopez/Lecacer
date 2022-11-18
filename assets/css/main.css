@@ -178,6 +178,38 @@ input, select, textarea {
 		padding: 1em 0 1em 2em;
 	}
 
+/* Cajas index */
+
+#caja-casa {
+	background-image: url("/assets/css/images/casas.jpg");
+	background-position: left;
+	background-size: 600px;
+	height: 18em;
+	text-align: center;
+	position: relative;
+}
+
+#caja-casa  {
+	text-align: left;
+	position: relative;
+	padding-left: 7em;
+}
+
+#caja-casa  {
+		position: absolute;
+		margin: 0;
+		left: 0;
+		top: 0.25em;
+	}
+
+	#caja-casa  {
+	margin-left: calc(20% + 2em);
+}
+
+#caja-casa {
+	width: 20%;
+}
+
 /* Container */
 
 	.container {
@@ -2494,6 +2526,7 @@ input, select, textarea {
 
 /* Box */
 
+
 	.box.highlight {
 		text-align: center;
 	}
@@ -2510,7 +2543,7 @@ input, select, textarea {
 		}
 
 		.box.post .inner {
-			margin-left: calc(30% + 2em);
+			margin-left: calc(0% + 2em);
 		}
 
 			.box.post .inner > :last-child {
@@ -2521,6 +2554,8 @@ input, select, textarea {
 			width: 30%;
 			margin: 0;
 		}
+
+		
 
 /* Header */
 
@@ -2669,47 +2704,28 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("/assets/css/images/cinta.jpg");
 		background-position: center center;
-		background-size: cover;
-		height: 28em;
+		background-size: 600px;
+		height: 18em;
 		text-align: center;
 		position: relative;
 	}
 
 		#banner header {
-			position: absolute;
-			bottom: 0;
+			position: relative;
+			bottom: -60px;
 			left: 0;
 			width: 100%;
-			background: #212121;
-			background: rgba(27, 27, 27, 0.75);
-			color: #fff;
+			color: rgb(0, 0, 0);
 			padding: 1.5em 0;
 		}
 
 			#banner header h2 {
 				display: inline-block;
-				margin: 0;
-				font-size: 1.25em;
+				margin: 35px;
+				font-size: 2.5em;
 				vertical-align: middle;
-			}
-
-				#banner header h2 em {
-					opacity: 0.75;
-				}
-
-				#banner header h2 a {
-					border-bottom-color: rgba(255, 255, 255, 0.5);
-				}
-
-					#banner header h2 a:hover {
-						border-bottom-color: transparent;
-					}
-
-			#banner header .button {
-				vertical-align: middle;
-				margin-left: 1em;
 			}
 
 /* Wrapper */
@@ -3067,11 +3083,11 @@ input, select, textarea {
 			}
 
 				#titleBar .title {
-					display: block;
+					display: none;
 					position: relative;
 					font-weight: 600;
-					text-align: center;
-					color: #fff;
+					text-align: left;
+					color: rgb(0, 0, 0);
 					z-index: 1;
 				}
 
@@ -3085,7 +3101,7 @@ input, select, textarea {
 					border: 0;
 					height: 60px;
 					left: 0;
-					position: absolute;
+					position: relative;
 					top: 0;
 					width: 80px;
 					z-index: 2;
@@ -3107,7 +3123,7 @@ input, select, textarea {
 					#titleBar .toggle:before {
 						content: '\f0c9';
 						display: block;
-						height: 44px;
+						height: 0px;
 						line-height: inherit;
 						text-align: center;
 						width: 44px;
@@ -3115,12 +3131,12 @@ input, select, textarea {
 						opacity: 0.5;
 					}
 
-					#titleBar .toggle:active:before {
+					#titranslateXtleBar .toggle:active:before {
 						opacity: 0.75;
 					}
 
 			#navPanel {
-				background-color: #1f1f1f;
+				background-color: #272727;
 				box-shadow: inset -1px 0 3px 0 rgba(0, 0, 0, 0.5);
 				background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
 				background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
