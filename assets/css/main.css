@@ -747,7 +747,7 @@ input, select, textarea {
 						}
 
 				.row.gtr-200 {
-					margin-top: -80px;
+					margin-top: -93px;
 					margin-left: -80px;
 				}
 
@@ -992,7 +992,7 @@ input, select, textarea {
 						}
 
 				.row.gtr-200 {
-					margin-top: -60px;
+					margin-top: -50px;
 					margin-left: -60px;
 				}
 
@@ -1237,7 +1237,7 @@ input, select, textarea {
 						}
 
 				.row.gtr-200 {
-					margin-top: -60px;
+					margin-top: -50px;
 					margin-left: -60px;
 				}
 
@@ -1727,7 +1727,7 @@ input, select, textarea {
 						}
 
 				.row.gtr-200 {
-					margin-top: -40px;
+					margin-top: -30px;
 					margin-left: -40px;
 				}
 
@@ -1972,7 +1972,7 @@ input, select, textarea {
 						}
 
 				.row.gtr-200 {
-					margin-top: -40px;
+					margin-top: -30px;
 					margin-left: -40px;
 				}
 
@@ -2145,6 +2145,19 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.image.control {
+				border: 0;
+				display: inline-block;
+				position: relative;
+				border-radius: 5px;
+				width: 100%;
+				
+			}
+		
+				.image img {
+					display: relative;
+					border-radius: 5px;
+				}
 /* Icon */
 
 	.icon {
@@ -3070,7 +3083,7 @@ input, select, textarea {
 		
 		#caja-casas{
 			
-			padding: 00px;
+			padding: 50px;
 			height: 15em;
 			min-width: 17em;
 			
@@ -3461,7 +3474,7 @@ input, select, textarea {
 			}
 
 				#banner header {
-					padding: 40px;
+					padding: 50px;
 				}
 
 		 /* Cajas */	
@@ -3470,21 +3483,21 @@ input, select, textarea {
 			
 			padding: 50px;
 			height: 13em;
-			min-width: 29em;
+			min-width: 33em;
 			
 		}
 
 		#caja-edificios{
 			padding: 50px;
 			height: 13em;
-			min-width: 29em;
+			min-width: 33em;
 			
 		}
 
 		#caja-empresas{
 			padding: 50px;
 			height: 13em;
-			min-width: 29em;
+			min-width: 33em;
 		}		
 
 		/* Wrapper */
