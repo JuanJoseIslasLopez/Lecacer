@@ -161,6 +161,7 @@ input, select, textarea {
 		letter-spacing: -0.025em;
 		color:#0c0000;
 		-webkit-text-stroke: 0.1px rgb(252, 252, 252);
+		margin-top: -40px;
 		
 	}
 
@@ -210,31 +211,32 @@ input, select, textarea {
 	text-align: center;
 	position: relative;
 	}
+	
 
 
-	#caja-edificios {
-		background-image: url("/assets/css/images/edificios.jpg");
-		background-position: center;
-		background-size: 670px;
-		height: 16em;
-		min-width: 31em;
-		max-width: 32em;
-		text-align: center;
-		position: relative;
-		}
+#caja-edificios {
+	background-image: url("/assets/css/images/edificios.jpg");
+	background-position: center;
+	background-size: 670px;
+	height: 16em;
+	min-width: 31em;
+	max-width: 32em;
+	text-align: center;
+	position: relative;
+	}
 
 	
 
-	#caja-empresas {
-			background-image: url("/assets/css/images/empresas.jpg");
-			background-position: center;
-			background-size: 670px;
-			height: 16em;
-			min-width: 31em;
-			max-width: 32em;
-			text-align: center;
-			position: relative;
-			}
+#caja-empresas {
+	background-image: url("/assets/css/images/empresas.jpg");
+	background-position: center;
+	background-size: 670px;
+	height: 16em;
+	min-width: 31em;
+	max-width: 32em;
+	text-align: center;
+	position: relative;
+	}
 
 
 
@@ -1408,7 +1410,7 @@ input, select, textarea {
 				}
 
 				.row > .col-12-narrower {
-					width: 100%;
+					width: 80%;
 				}
 
 				.row > .off-12-narrower {
@@ -2771,6 +2773,20 @@ input, select, textarea {
 				vertical-align: middle;
 			}
 
+/* Gif */
+
+    .gif {
+		height:300px;
+ 		min-width: 300px;
+}
+
+	.gif img {
+		height: 100%;
+ 		min-width: 110%;
+		
+	}
+
+
 /* Wrapper */
 
 	.wrapper {
@@ -3088,7 +3104,7 @@ input, select, textarea {
 
 			#banner {
 				height: 13.45em;
-				margin-top: 5em;
+				margin-top: 3em;
 			}
 
 				#banner header h2 {
@@ -3204,7 +3220,7 @@ input, select, textarea {
 				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 				background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 				background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-				height: 130px;
+				height: 100px;
 				line-height: px;
 				box-shadow: 0 4px 0 0 #37c0fb;
 			}
@@ -3253,9 +3269,9 @@ input, select, textarea {
 						height: 0px;
 						line-height: inherit;
 						text-align: center;
-						width: 44px;
+						width: 80px;
 						color: #fff;
-						opacity: 0.5;
+						opacity: 1;
 					}
 
 					#titranslateXtleBar .toggle:active:before {
@@ -3415,11 +3431,11 @@ input, select, textarea {
 
 			#banner {
 				height: 15.9em;
-				margin-top: 6em;
+				margin-top: 4em;
 			}
 
 			#banner header {
-				padding: 65px;
+				padding: 40px;
 			}
 
 	    /* Cajas */	
@@ -3485,7 +3501,7 @@ input, select, textarea {
 			input[type="button"],
 			button,
 			.button {
-				width: 70%;
+				width: 40%;
 				display: block;
 			}
 
@@ -3507,13 +3523,13 @@ input, select, textarea {
 
 			#banner {
 				height: em;
-				margin-top: 6em;
+				margin-top: 4em;
 
 				
 			}
 
 				#banner header {
-					padding: 50px;
+					padding: 15px;
 				}
 
 		 /* Cajas */	
@@ -3528,7 +3544,7 @@ input, select, textarea {
 
 		#caja-casas h4 {
 			margin-bottom: 0.5em;
-			margin-left: -3em;
+			margin-left: -6em;
 			text-align: center;
 			
 			}
@@ -3542,7 +3558,7 @@ input, select, textarea {
 
 		#caja-edificios h4 {
 			margin-bottom: 0.5em;
-			margin-left: -3em;
+			margin-left: -6em;
 			text-align: center;
 			
 			}
@@ -3556,7 +3572,7 @@ input, select, textarea {
 
 		#caja-empresas h4 {
 			margin-bottom: 0.5em;
-			margin-left: -3em;
+			margin-left: -6em;
 			text-align: center;
 			
 			}
@@ -3582,3 +3598,4 @@ input, select, textarea {
 			}
 
 	}
+}
