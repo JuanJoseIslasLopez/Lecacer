@@ -3597,5 +3597,16 @@ input, select, textarea {
 				text-align: left;
 			}
 
+		/* Image */
+
+	img {
+		max-width: 100%;
+ 		max-height: 100%;
+		}
+	.image {
+ 		height: 200px;
+ 		width: 200px;
+		}
+		
 	}
 }
