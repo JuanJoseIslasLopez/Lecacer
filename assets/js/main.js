@@ -63,5 +63,18 @@
 					target: $body,
 					visibleClass: 'navPanel-visible'
 				});
+			
+				// Scroll buttons.
+
+				$("button").click(function() {
+					$('html,body').animate({
+						scrollTop: $(".second").offset().top},
+						'slow');
+				});
+
+				function scrolldiv() {
+					var elem = document.getElementById("ele");
+					elem.scrollIntoView();
+				}
 
 })(jQuery);

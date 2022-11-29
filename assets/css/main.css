@@ -238,6 +238,31 @@ input, select, textarea {
 	position: relative;
 	}
 
+/* WPP Button*/
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
 
 
 /* Container */
@@ -2795,15 +2820,17 @@ input, select, textarea {
 /* Gif */
 
     .gif {
-		height:300px;
- 		min-width: 300px;
+		background-image: url("/assets/css/images/servicio-gif.gif");
+		background-position: center center;
+		background-size: 1900px;
+		height:475px;
+ 		min-width: 200px;
+		margin-left: -60px;
+		margin-right: -60px;
+		position: relative;
 }
 
-	.gif img {
-		height: 100%;
- 		min-width: 110%;
-		
-	}
+
 
 
 /* Wrapper */
@@ -3143,6 +3170,8 @@ input, select, textarea {
 					margin: 1em 0 0 0;
 				}
 
+		
+				
 				
 		/* Cajas */	
 		
@@ -3698,5 +3727,23 @@ input, select, textarea {
 			.row > .col-12-narrower {
 				width: 80%;
 			}
+
+		/* Gif */
+
+		.gif {
+		background-image: url("/assets/css/images/servicio-gif.gif");
+		background-position: center center;
+		background-size: 500px;
+		height:130px;
+ 		max-width: 900px;
+		margin-left: -60px;
+		margin-right: -60px;
+		position: relative;
+		
+			
+		
+	}
+	
+		
 	}
 }
