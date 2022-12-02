@@ -2224,7 +2224,7 @@ input, select, textarea {
 				
 			}
 		
-				.image img {
+				image img {
 					display: relative;
 					border-radius: 5px;
 				}
@@ -2240,6 +2240,36 @@ input, select, textarea {
 						display: block;
 						border-radius: 5px;
 					}
+
+
+					#image {
+						border: 0;
+						display: inline-block;
+						position: relative;
+						
+					}
+				
+						#image img {
+							display: block;
+							margin-right: -60px;
+							width: 960px;
+							
+							
+						}
+				
+						#image-left {
+							border: 0;
+							display: inline-block;
+							position: relative;
+							
+						}
+				
+							#image-left img {
+							display: block;
+							margin-right: 850px;
+							margin-left: -60px;
+							width: 960px;
+							}
 /* Icon */
 
 	.icon {
@@ -2836,7 +2866,7 @@ input, select, textarea {
 
 /* Gif */
 
-    .gif {
+.gif {
 		background-image: url("/assets/css/images/servicio-gif.gif");
 		background-position: center center;
 		background-size: 1920px;
@@ -2844,10 +2874,43 @@ input, select, textarea {
  		min-width: 200px;
 		margin-left: -60px;
 		margin-right: -60px;
-		margin-bottom: 25px;
+		margin-bottom: 10px;
 		position: relative;
+		
 }
 
+/* Transparencia */
+
+#transparencia {
+
+	
+	opacity: 0;
+	margin-top: -1000px;
+
+}
+
+#transparencia img{
+	position: center center;
+	margin-top: 50px;
+	margin-left: 300px;
+}
+
+/*#gif header {
+	position: relative;
+	bottom: -50px;
+	left: 0;
+	width: 100%;
+	color: rgb(0, 0, 0);
+	padding: 1.5em 0;
+}
+
+#gif header h2 {
+		display: inline-block;
+		margin: 35px;
+		font-size: 5em;
+		vertical-align: middle;
+	}*/
+ 
 .gif-index {
 	background-image: url("/assets/css/images/servicio-gif.gif");
 	background-position: center center;
@@ -2858,18 +2921,6 @@ input, select, textarea {
 	margin-right: -60px;
 	margin-top: -65px;
 	margin-bottom: -69px;
-	position: relative;
-}
-
-.gif {
-	background-image: url("/assets/css/images/servicio-gif.gif");
-	background-position: center center;
-	background-size: 1920px;
-	height:475px;
-	 min-width: 200px;
-	margin-left: -60px;
-	margin-right: -60px;
-	margin-bottom: 25px;
 	position: relative;
 }
 
@@ -3745,7 +3796,38 @@ input, select, textarea {
 					padding-left: 0.5em;
 				}
 			
+				#image {
+					border: 0;
+					display: inline-block;
+					position: relative;
+					
+				}
 				
+					#image img {
+						display: block;
+						margin-right: -60px;
+						width: 480px;
+						
+						margin-left: 0px;
+						margin-top: -55px;
+						margin-bottom: -6px;
+						
+					}
+				
+					#image-left {
+						border: 0;
+						display: inline-block;
+						position: relative;
+						
+					}
+				
+						#image-left img {
+						display: block;
+						margin-right: 850px;
+						margin-left: 0px;
+						margin-top: -10px;
+						width: 415px;
+						}		
 			
 		/* Icons */
 
@@ -3791,6 +3873,7 @@ input, select, textarea {
 		height:180px;
  		max-width: 415px;
 		margin-left: 0px;
+		margin-bottom: -10px;
 		}
 		
 		.gif-index {
