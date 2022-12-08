@@ -216,6 +216,7 @@ input, select, textarea {
 	max-width: 32em;
 	text-align: center;
 	position: relative;
+	margin-top: -11px;
 	}
 	
 
@@ -229,6 +230,7 @@ input, select, textarea {
 	max-width: 32em;
 	text-align: center;
 	position: relative;
+	margin-top: -11px;
 	}
 
 	
@@ -242,6 +244,7 @@ input, select, textarea {
 	max-width: 32em;
 	text-align: center;
 	position: relative;
+	margin-top: -11px;
 	}
 
 /* WPP Button*/
@@ -3471,6 +3474,7 @@ input, select, textarea {
 		height: 10em;
 		text-align: center;
 		position: relative;
+		
 	}
 
 		#banner header {
@@ -3683,6 +3687,7 @@ input, select, textarea {
 				padding: 100px;
 				height: 16em;
 				min-width: 5em;
+				margin-top: 0px;
 				
 			}
 
@@ -3690,12 +3695,14 @@ input, select, textarea {
 				padding: 100px;
 				height: 16em;
 				min-width: 5em;
+				margin-top: 0px;
 			}
 
 			#caja-empresas{
 				padding: 100px;
 				height: 16em;
 				min-width: 2em;
+				margin-top: 0px;
 			}
 
 
