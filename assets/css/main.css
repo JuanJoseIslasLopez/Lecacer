@@ -216,8 +216,7 @@ input, select, textarea {
 	background-position: center;
 	background-size: 670px;
 	height: 16em;
-	min-width: 31em;
-	max-width: 32em;
+	width: 30.97em;
 	text-align: center;
 	position: relative;
 	margin-top: -11px;
@@ -230,8 +229,7 @@ input, select, textarea {
 	background-position: center;
 	background-size: 670px;
 	height: 16em;
-	min-width: 31em;
-	max-width: 32em;
+	width: 30.97em;
 	text-align: center;
 	position: relative;
 	margin-top: -11px;
@@ -244,8 +242,7 @@ input, select, textarea {
 	background-position: center;
 	background-size: 670px;
 	height: 16em;
-	min-width: 31em;
-	max-width: 32em;
+    width: 30.97em;
 	text-align: center;
 	position: relative;
 	margin-top: -11px;
@@ -3690,7 +3687,7 @@ input, select, textarea {
 			#caja-casas{
 				padding: 100px;
 				height: 16em;
-				min-width: 5em;
+				width: 33.3%;
 				margin-top: 0px;
 				
 			}
@@ -3698,14 +3695,14 @@ input, select, textarea {
 			#caja-edificios{
 				padding: 100px;
 				height: 16em;
-				min-width: 5em;
+				width: 33.3%;
 				margin-top: 0px;
 			}
 
 			#caja-empresas{
 				padding: 100px;
 				height: 16em;
-				min-width: 2em;
+				width: 33.3%;
 				margin-top: 0px;
 			}
 
