@@ -63,5 +63,16 @@
 					target: $body,
 					visibleClass: 'navPanel-visible'
 				});
+			
+				// Scroll buttons.
+
+
+			//	function scrolldiv() {
+			//		var elem = document.getElementById("ele");
+			//		elem.scrollIntoView();
+			//	}
+
+				var elmnt = document.getElementById("content");function scrollToDiv() {elmnt.scrollIntoView(true);}
+
 
 })(jQuery);
