@@ -82,7 +82,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f7f7f7 url("images/bg01.png");
+		background: #f7f7f7 url("../sass/../sass/images/bg01.png");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -212,7 +212,7 @@ input, select, textarea {
 /* Cajas */
 
 #caja-casas {
-	background-image: url("/assets/css/images/casas.jpg");
+	background-image: url("images/casas.jpg");
 	background-position: center;
 	background-size: 670px;
 	height: 16em;
@@ -225,7 +225,7 @@ input, select, textarea {
 
 
 #caja-edificios {
-	background-image: url("/assets/css/images/edificios.jpg");
+	background-image: url("../css/images/edificios.jpg");
 	background-position: center;
 	background-size: 670px;
 	height: 16em;
@@ -238,7 +238,7 @@ input, select, textarea {
 	
 
 #caja-empresas {
-	background-image: url("/assets/css/images/empresas.jpg");
+	background-image: url("../css/images/empresas.jpg");
 	background-position: center;
 	background-size: 670px;
 	height: 16em;
@@ -2940,10 +2940,10 @@ input, select, textarea {
 			text-align: center;
 			cursor: default;
 			background-color: #37c0fb;
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/../sass/images/bg01.png");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/../sass/images/bg01.png");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/../sass/images/bg01.png");
+			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/../sass/images/bg01.png");
 			color: #fff;
 			border-radius: 100%;
 			display: inline-block;
@@ -3181,10 +3181,10 @@ input, select, textarea {
 
 			table.default thead {
 				background-color: #555555;
-				background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+				background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
+				background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
+				background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
 				color: #fff;
 			}
 
@@ -3203,10 +3203,10 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
 		background-color: #15a7eb;
 		border-radius: 5px;
 		border: 0;
@@ -3328,7 +3328,7 @@ input, select, textarea {
 		text-align: center;
 		padding: 3em 0 0 0;
 		background-color: rgb(0, 0, 0);
-		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
+		background-image: url("../sass/images/bg01.png"), url("../sass/images/bg01.png"), url("../sass/images/bg01.png");
 		background-position: top left,					top centert,					top left;
 		background-size: 100% 6em,					100% 6em,					auto;
 		background-repeat: no-repeat,					no-repeat,					repeat;
@@ -3348,10 +3348,10 @@ input, select, textarea {
 	#nav {
 		cursor: default;
 		background-color: rgb(0, 0, 0);
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("../sass/images/bg01.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("../sass/images/bg01.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("../sass/images/bg01.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("../sass/images/bg01.png");
 		padding: 0;
 	}
 
@@ -3361,7 +3361,7 @@ input, select, textarea {
 			width: 100%;
 			height: 0.75em;
 			background-color: #37c0fb;
-			background-image: url("images/bg01.png");
+			background-image: url("../sass/images/bg01.png");
 		}
 
 		#nav > ul {
@@ -3408,7 +3408,7 @@ input, select, textarea {
 						left: 50%;
 						margin-left: -0.375em;
 						background-color: #37c0fb;
-						background-image: url("images/bg01.png");
+						background-image: url("../sass/images/bg01.png");
 					}
 
 					#nav > ul > li.current a {
@@ -3430,10 +3430,10 @@ input, select, textarea {
 /* Dropotron */
 
 	.dropotron {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("images/bg01.png");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("../sass/images/bg01.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("../sass/images/bg01.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("../sass/images/bg01.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)), url("../sass/images/bg01.png");
 		background-color: #333;
 		border-radius: 5px;
 		color: #fff;
@@ -3469,7 +3469,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("/assets/css/images/cinta.jpg");
+		background-image: url("images/cinta.jpg");
 		background-position: center center;
 		background-size: 500px;
 		height: 10em;
@@ -3497,7 +3497,7 @@ input, select, textarea {
 /* Gif */
 
 .gif {
-		background-image: url("/assets/css/images/servicio-gif.gif");
+		background-image: url("../css/images/servicio-gif.gif");
 		background-position: center center;
 		background-size: 1920px;
 		height:475px;
@@ -3528,7 +3528,7 @@ input, select, textarea {
 
  
 .gif-index {
-	background-image: url("/assets/css/images/servicio-gif.gif");
+	background-image: url("../css/images/servicio-gif.gif");
 	background-position: center center;
 	background-size: 1920px;
 	height:475px;
@@ -3553,7 +3553,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #fff;
-			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
+			background-image: url("images/bg02.png"), url("images/bg03.png"), url("../sass/images/bg01.png");
 			background-position: top left,						bottom left,					top left;
 			background-size: 100% 6em,						100% 6em,						auto;
 			background-repeat: no-repeat,						no-repeat,						repeat;
@@ -3561,10 +3561,10 @@ input, select, textarea {
 
 		.wrapper.style3 {
 			background-color: #37c0fb;
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
+			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
 			color: #fff;
 		}
 
@@ -3757,7 +3757,7 @@ input, select, textarea {
 
 		
 			.gif-index {
-				background-image: url("/assets/css/images/servicio-gif.gif");
+				background-image: url("../css/images/servicio-gif.gif");
 				background-position: center center;
 				background-size: 1920px;
 				height:475px;
@@ -3879,7 +3879,7 @@ input, select, textarea {
 				/* Gif */
 
 		.gif {
-			background-image: url("/assets/css/images/servicio-gif.gif");
+			background-image: url("../css/images/servicio-gif.gif");
 		background-position: center center;
 		background-size: 1500px;
 		height:390px;
@@ -3891,7 +3891,7 @@ input, select, textarea {
 			}
 			
 			.gif-index {
-				background-image: url("/assets/css/images/servicio-gif.gif");
+				background-image: url("../css/images/servicio-gif.gif");
 				background-position: center center;
 				background-size: 900px;
 				height:235px;
@@ -4100,10 +4100,10 @@ input, select, textarea {
 				width: 100%;
 				z-index: 10001;
 				background-color: #000;
-				background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-				background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-				background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
+				background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("../sass/images/bg01.png");
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("../sass/images/bg01.png");
+				background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("../sass/images/bg01.png");
+				background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("../sass/images/bg01.png");
 				height: 100px;
 				line-height: px;
 				box-shadow: 0 4px 0 0 #37c0fb;
@@ -4165,10 +4165,10 @@ input, select, textarea {
 			#navPanel {
 				background-color: #272727;
 				box-shadow: inset -1px 0 3px 0 rgba(0, 0, 0, 0.5);
-				background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: -ms-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
-				background-image: linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
+				background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
+				background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
+				background-image: -ms-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
+				background-image: linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("../sass/images/bg01.png");
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -4306,7 +4306,7 @@ input, select, textarea {
 		/* Gif */
 
 			.gif {
-			background-image: url("/assets/css/images/servicio-gif.gif");
+			background-image: url("../css/images/servicio-gif.gif");
 			background-position: center center;
 			background-size: 1000px;
 			height:260px;
@@ -4608,7 +4608,7 @@ input, select, textarea {
 		/* Gif */
 
 		.gif {
-		background-image: url("/assets/css/images/servicio-gif.gif");
+		background-image: url("../css/images/servicio-gif.gif");
 		background-position: center center;
 		background-size: 700px;
 		height:180px;
@@ -4618,7 +4618,7 @@ input, select, textarea {
 		}
 		
 		.gif-index {
-			background-image: url("/assets/css/images/servicio-gif.gif");
+			background-image: url("../css/images/servicio-gif.gif");
 			background-position: center center;
 			background-size: 700px;
 			height:180px;
