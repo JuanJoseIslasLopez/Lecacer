@@ -67,12 +67,27 @@
 				// Scroll buttons.
 
 
-			//	function scrolldiv() {
-			//		var elem = document.getElementById("ele");
-			//		elem.scrollIntoView();
-			//	}
+				function scrollToCategory(cat, e){
 
-				var elmnt = document.getElementById("content");function scrollToDiv() {elmnt.scrollIntoView(true);}
+					var element = document.getElementById(cat.id);
+					var bodyRect = document.body.getBoundingClientRect(),
+					elemRect = element.getBoundingClientRect(),
+					offset   = elemRect.top - bodyRect.top -225 ;
+				
+					var x = document.getElementsByClassName('nav-link')
+				
+					for (let i = 0; i < x.length; i++) {
+						x[i].classList.remove("active")
+					}
+				
+					e.target.classList.add("active")
+				
+					window.scrollTo({
+						 top: offset,
+						 behavior: "smooth"
+				    });
+				
+				}
 
 
 })(jQuery);
