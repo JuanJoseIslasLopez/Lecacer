@@ -3666,8 +3666,8 @@ input, select, textarea {
 				#image img {
 					
 					margin-top: -1%;
-					width: 104%;
-					margin-left: -1%;
+					width: 103%;
+					margin-left: -3%;
 					
 				}
 		
@@ -3679,7 +3679,7 @@ input, select, textarea {
 					#image-left img {
 					
 					margin-top: -1%;
-					width: 104.4%;
+					width: 103%;
 					}
 
 		/* Cajas */	
@@ -3704,6 +3704,32 @@ input, select, textarea {
 				height: 16em;
 				width: 33.3%;
 				margin-top: 0px;
+			}
+
+			.gif {
+				background-image: url("../css/images/servicio-gif.gif");
+				background-position: center center;
+				background-size: 1920px;
+				height:475px;
+				width: 103.9%;
+				margin-left: -60px;
+				margin-right: -60px;
+				margin-bottom: 10px;
+				position: relative;
+			}
+
+
+			.gif-index {
+				background-image: url("../css/images/servicio-gif.gif");
+				background-position: center center;
+				background-size: 1920px;
+				height:475px;
+				width: 103.9%;
+				margin-left: -60px;
+				margin-right: -60px;
+				margin-top: -55px;
+				margin-bottom: -69px;
+				position: relative;
 			}
 
 
@@ -3761,7 +3787,7 @@ input, select, textarea {
 				background-position: center center;
 				background-size: 1920px;
 				height:475px;
-				min-width: 200px;
+				width: 105%;
 				margin-left: -60px;
 				margin-right: -60px;
 				margin-top: -17px;
@@ -3950,6 +3976,7 @@ input, select, textarea {
 
 		 h4 {
 			margin-bottom: 0.5em;
+			margin-left: -2%;
 			text-align: center;
 			
 			}		
@@ -4022,9 +4049,9 @@ input, select, textarea {
 		input[type="button"],
 		button,
 		.button {
-			width: 65%;
+			width: 50%;
 			display: block;
-			margin-left: 15%;
+			margin-left: 23%;
 		}
 
 	/* Box */
@@ -4116,6 +4143,7 @@ input, select, textarea {
 					text-align: center;
 					color: rgb(248, 244, 244);
 					z-index: 1;
+					margin-top: -80px;
 				}
 
 					#titleBar .title em {
@@ -4130,7 +4158,7 @@ input, select, textarea {
 					left: 0;
 					position: relative;
 					top: 0;
-					width: 80px;
+					width: 10px;
 					z-index: 2;
 				}
 
@@ -4145,17 +4173,20 @@ input, select, textarea {
 						text-transform: none !important;
 						font-family: 'Font Awesome 5 Free';
 						font-weight: 900;
+						width: 100px;
 					}
 
 					#titleBar .toggle:before {
-						content: '\f0c9';
+						content:'\f0c9';
+						padding: 10%;
 						display: block;
 						height: 0px;
 						line-height: inherit;
 						text-align: center;
-						width: 80px;
+						width:80px;
 						color: #fff;
 						opacity: 1;
+
 					}
 
 					#titranslateXtleBar .toggle:active:before {
@@ -4410,7 +4441,7 @@ input, select, textarea {
 			.button {
 				width: 65%;
 				display: block;
-				margin-left: 0%;
+				margin-left: -4%;
 			}
 
 		/* Box */
@@ -4458,7 +4489,7 @@ input, select, textarea {
 
 		#caja-casas h4 {
 			margin-bottom: 0.5em;
-			margin-left: -4em;
+			display: inline-block;
 			text-align: center;
 			
 			}
@@ -4472,7 +4503,7 @@ input, select, textarea {
 
 		#caja-edificios h4 {
 			margin-bottom: 0.5em;
-			margin-left: -4em;
+			display: inline-block;
 			text-align: center;
 			
 			}
@@ -4486,7 +4517,7 @@ input, select, textarea {
 
 		#caja-empresas h4 {
 			margin-bottom: 0.5em;
-			margin-left: -4em;
+			display: inline-block;
 			text-align: center;
 			
 			}
@@ -4528,12 +4559,14 @@ input, select, textarea {
 		.imagen.nice {
 			height: 200px;
  			width: 200px;
+			
 		}
 	
 			.image.nice img {
 				max-width: 300%;
  				max-height: 300%;
 				margin-left: 50px;
+				margin-bottom: 500px;
 			}
 		
 			ul {
@@ -4641,7 +4674,7 @@ input, select, textarea {
 			
 			margin-top: -12%;
 			width: 200%;
-			height: 400px;
+			height: 321.35px;
 			margin-left: 0%;
 			
 		}
