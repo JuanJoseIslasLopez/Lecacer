@@ -214,9 +214,9 @@ input, select, textarea {
 #caja-casas {
 	background-image: url("images/casas.jpg");
 	background-position: center;
-	background-size: 670px;
+	background-size: 100%;
 	height: 16em;
-	width: 30.97em;
+	width: 33.3%;
 	text-align: center;
 	position: relative;
 	margin-top: -11px;
@@ -227,9 +227,9 @@ input, select, textarea {
 #caja-edificios {
 	background-image: url("../css/images/edificios.jpg");
 	background-position: center;
-	background-size: 670px;
+	background-size: 100%;
 	height: 16em;
-	width: 30.97em;
+	width: 33.3%;
 	text-align: center;
 	position: relative;
 	margin-top: -11px;
@@ -240,9 +240,9 @@ input, select, textarea {
 #caja-empresas {
 	background-image: url("../css/images/empresas.jpg");
 	background-position: center;
-	background-size: 670px;
+	background-size: 100%;
 	height: 16em;
-    width: 30.97em;
+    width: 33.3%;
 	text-align: center;
 	position: relative;
 	margin-top: -11px;
@@ -2878,13 +2878,13 @@ input, select, textarea {
 
 					#image {
 						
-						margin-left: -20px;
+						margin-left: -25px;
 					}
 				
 						#image img {
 							
 							
-							width: 960px;
+							width: 951px;
 							
 							
 						}
@@ -2897,7 +2897,7 @@ input, select, textarea {
 							#image-left img {
 							
 							
-							width: 960px;
+							width: 951px;
 							}
 /* Icon */
 
@@ -3496,15 +3496,12 @@ input, select, textarea {
 
 /* Gif */
 
-.gif {
+#gif {
 		background-image: url("../css/images/servicio-gif.gif");
 		background-position: center center;
 		background-size: 1920px;
 		height:475px;
- 		min-width: 200px;
-		margin-left: -60px;
-		margin-right: -60px;
-		margin-bottom: 10px;
+ 		width: 100%;
 		position: relative;
 		
 }
@@ -3527,14 +3524,12 @@ input, select, textarea {
 
 
  
-.gif-index {
+#gif-index {
 	background-image: url("../css/images/servicio-gif.gif");
 	background-position: center center;
 	background-size: 1920px;
 	height:475px;
-	min-width: 200px;
-	margin-left: -60px;
-	margin-right: -60px;
+	width: 100%;
 	margin-top: -65px;
 	margin-bottom: -69px;
 	position: relative;
@@ -3637,7 +3632,12 @@ input, select, textarea {
 
 /* Wide */
 
-	@media screen and (max-width: 1680px) {
+	@media screen and (max-width: 1920px) {
+
+
+		#navPanel, #titleBar {
+			display: none;
+		}
 
 		/* Basic */
 
@@ -3665,9 +3665,9 @@ input, select, textarea {
 		
 				#image img {
 					
-					margin-top: -1%;
-					width: 103%;
-					margin-left: -3%;
+					margin-top: 0%;
+					width: 102.5%;
+					margin-left: -2.5%;
 					
 				}
 		
@@ -3678,8 +3678,8 @@ input, select, textarea {
 		
 					#image-left img {
 					
-					margin-top: -1%;
-					width: 103%;
+					margin-top: 0%;
+					width: 102.5%;
 					}
 
 		/* Cajas */	
@@ -3689,7 +3689,7 @@ input, select, textarea {
 				height: 16em;
 				width: 33.3%;
 				margin-top: 0px;
-				
+				background-size: 120%;
 			}
 
 			#caja-edificios{
@@ -3697,6 +3697,7 @@ input, select, textarea {
 				height: 16em;
 				width: 33.3%;
 				margin-top: 0px;
+				background-size: 120%;
 			}
 
 			#caja-empresas{
@@ -3704,22 +3705,20 @@ input, select, textarea {
 				height: 16em;
 				width: 33.3%;
 				margin-top: 0px;
+				background-size: 120%;
 			}
 
-			.gif {
+			#gif {
 				background-image: url("../css/images/servicio-gif.gif");
 				background-position: center center;
 				background-size: 1920px;
 				height:475px;
-				width: 103.9%;
-				margin-left: -60px;
-				margin-right: -60px;
-				margin-bottom: 10px;
+				width: 100%;
 				position: relative;
 			}
 
 
-			.gif-index {
+			#gif-index {
 				background-image: url("../css/images/servicio-gif.gif");
 				background-position: center center;
 				background-size: 1920px;
@@ -3782,14 +3781,12 @@ input, select, textarea {
 			}
 
 		
-			.gif-index {
+			#gif-index {
 				background-image: url("../css/images/servicio-gif.gif");
 				background-position: center center;
 				background-size: 1920px;
 				height:475px;
-				width: 105%;
-				margin-left: -60px;
-				margin-right: -60px;
+				width: 105.2%;
 				margin-top: -17px;
 				margin-bottom: -69px;
 				position: relative;
@@ -3799,21 +3796,27 @@ input, select, textarea {
 		
 		#caja-casas{
 			
-			padding: 50px;
-			height: 13em;
-			max-width: em;
+			padding: 6%;
+			height: 16em;
+			width: 33.3%;
+			margin-top: 0px;
+			background-size: 150%;
 		}
 
 		#caja-edificios{
-			padding: 50px;
-			height: 13em;
-			max-width: 25em;
+			padding: 6%;
+			height: 16em;
+			width: 33.3%;
+			margin-top: 0px;
+			background-size: 150%;
 		}
 
 		#caja-empresas{
-			padding: 50px;
-			height: 13em;
-			max-width: 25em;
+			padding: 6%;
+			height: 16em;
+			width: 33.3%;
+			margin-top: 0px;
+			background-size: 150%;
 		}
 
 		/* Wrapper */
@@ -3838,6 +3841,33 @@ input, select, textarea {
 					margin-bottom: 1em;
 				}
 
+				
+			#image {
+						
+				margin-left: 0px;
+				
+				
+			}
+
+				#image img {
+					
+					margin-top: 0%;
+					width: 103.2%;
+					margin-left: -3.2%;
+					
+				}
+		
+				#image-left {
+					position: relative;
+			
+				}
+		
+					#image-left img {
+					
+					margin-top: 0%;
+					width: 103.2%;
+					}
+
 	}
 
 /* Narrow */
@@ -3851,6 +3881,56 @@ input, select, textarea {
 				line-height: 1.5em;
 			}
 
+			/* Cajas */	
+		
+		#caja-casas{
+			
+			padding: 6.8%;
+			height: 16em;
+			width: 33.3%;
+			margin-top: 0px;
+		}
+
+		#caja-edificios{
+			padding: 6.8%;
+			height: 16em;
+			width: 33.3%;
+			margin-top: 0px;
+		}
+
+		#caja-empresas{
+			padding: 6.8%;
+			height: 16em;
+			width: 33.3%;
+			margin-top: 0px;
+		}
+
+		#image {
+						
+			margin-left: 0px;
+			
+			
+		}
+
+			#image img {
+				
+				margin-top: 0%;
+				width: 104.5%;
+				margin-left: -4.5%;
+				
+			}
+	
+			#image-left {
+				position: relative;
+		
+			}
+	
+				#image-left img {
+				
+				margin-top: 0%;
+				width: 104.5%;
+				}
+
 	}
 
 /* Narrower */
@@ -3858,6 +3938,8 @@ input, select, textarea {
 	#navPanel, #titleBar {
 		display: none;
 	}
+
+		
 
 	@media screen and (max-width: 840px) {
 
@@ -3904,19 +3986,17 @@ input, select, textarea {
 
 				/* Gif */
 
-		.gif {
+		#gif {
 			background-image: url("../css/images/servicio-gif.gif");
-		background-position: center center;
-		background-size: 1500px;
-		height:390px;
- 		min-width: 200px;
-		margin-left: -60px;
-		margin-right: -60px;
-		margin-bottom: 10px;
-		position: relative;
+			background-position: center center;
+			background-size: 205%;
+			height:390px;
+			width: 100%;
+			margin-bottom: 10px;
+			position: relative;
 			}
 			
-			.gif-index {
+			#gif-index {
 				background-image: url("../css/images/servicio-gif.gif");
 				background-position: center center;
 				background-size: 900px;
@@ -4143,7 +4223,7 @@ input, select, textarea {
 					text-align: center;
 					color: rgb(248, 244, 244);
 					z-index: 1;
-					margin-top: -80px;
+					margin-top: -10%;
 				}
 
 					#titleBar .title em {
@@ -4178,7 +4258,7 @@ input, select, textarea {
 
 					#titleBar .toggle:before {
 						content:'\f0c9';
-						padding: 10%;
+						padding: 5%;
 						display: block;
 						height: 0px;
 						line-height: inherit;
@@ -4336,17 +4416,16 @@ input, select, textarea {
 
 		/* Gif */
 
-			.gif {
+			#gif {
 			background-image: url("../css/images/servicio-gif.gif");
 			background-position: center center;
-			background-size: 1000px;
-			height:260px;
-			min-width: 200px;
-			margin-left: -60px;
-			margin-right: -60px;
+			background-size: 1500px;
+			height:390px;
+			width: 100%;
 			margin-bottom: 10px;
 			position: relative;
-		}
+			}
+			
 
 		/* Menu */
 
@@ -4440,9 +4519,19 @@ input, select, textarea {
 			button,
 			.button {
 				width: 65%;
-				display: block;
-				margin-left: -4%;
+				margin-left: -5%;
 			}
+
+			input[type="submit"].alt,
+			input[type="reset"].alt,
+			input[type="button"].alt,
+			button.alt,
+			.button.alt {
+				background-color: #555555;
+				color: #fff;
+				margin-left: 0%;
+			}
+			
 
 		/* Box */
 
@@ -4489,7 +4578,7 @@ input, select, textarea {
 
 		#caja-casas h4 {
 			margin-bottom: 0.5em;
-			display: inline-block;
+			margin-left: -45%;
 			text-align: center;
 			
 			}
@@ -4503,7 +4592,7 @@ input, select, textarea {
 
 		#caja-edificios h4 {
 			margin-bottom: 0.5em;
-			display: inline-block;
+			margin-left: -45%;
 			text-align: center;
 			
 			}
@@ -4517,7 +4606,7 @@ input, select, textarea {
 
 		#caja-empresas h4 {
 			margin-bottom: 0.5em;
-			display: inline-block;
+			margin-left: -45%;
 			text-align: center;
 			
 			}
@@ -4640,17 +4729,17 @@ input, select, textarea {
 
 		/* Gif */
 
-		.gif {
+		#gif {
 		background-image: url("../css/images/servicio-gif.gif");
 		background-position: center center;
 		background-size: 700px;
 		height:180px;
  		max-width: 415px;
 		margin-left: 0px;
-		margin-bottom: -10px;
+		
 		}
 		
-		.gif-index {
+		#gif-index {
 			background-image: url("../css/images/servicio-gif.gif");
 			background-position: center center;
 			background-size: 700px;
@@ -4662,34 +4751,84 @@ input, select, textarea {
 	}
 
 
-	#image {
-						
-		margin-left: 0px;
-		position: relative;
-		height: 400px;
-		
-	}
-
-		#image img {
-			
-			margin-top: -12%;
-			width: 200%;
-			height: 321.35px;
-			margin-left: 0%;
-			
-		}
-
-		#image-left {
+		#image {			
+			margin-left: 0px;
 			position: relative;
-	
+			height: 400px;
+			
 		}
 
-			#image-left img {
-			
-			margin-top: 0%;
-			width: 200%;
+			#image img {
+				
+				margin-top: -12%;
+				width: 200%;
+				height: 321.35px;
+				margin-left: 0%;
+				
 			}
-	
-		
+
+			#image-left {
+				position: relative;
+
+			}
+
+				#image-left img {
+				
+				margin-top: -2.5%;
+				width: 200%;
+				}
+
+			#titleBar .title {
+				display: block;
+				position: relative;
+				font-weight: 600;
+				text-align: center;
+				color: rgb(248, 244, 244);
+				z-index: 1;
+				margin-top: -20%;
+			}
+
+				#titleBar .title em {
+					font-style: normal;
+					font-weight: 300;
+				}
+
+			#titleBar .toggle {
+				text-decoration: none;
+				border: 0;
+				height: 60px;
+				left: 0;
+				position: relative;
+				top: 0;
+				width: 10px;
+				z-index: 2;
+			}
+
+				#titleBar .toggle:before {
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					display: inline-block;
+					font-style: normal;
+					font-variant: normal;
+					text-rendering: auto;
+					line-height: 1;
+					text-transform: none !important;
+					font-family: 'Font Awesome 5 Free';
+					font-weight: 900;
+					width: 100px;
+				}
+
+				#titleBar .toggle:before {
+					content:'\f0c9';
+					padding: 10%;
+					display: block;
+					height: 0px;
+					line-height: inherit;
+					text-align: center;
+					width:80px;
+					color: #fff;
+					opacity: 1;
+
+				}
 	}
 }
