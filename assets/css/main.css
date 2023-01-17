@@ -294,12 +294,40 @@ input, select, textarea {
 
 /* Container */
 
-	.container {
-		margin: 0px auto;
-		margin-left: 60px;
-		max-width: 100%;
-		width: 1400px;
+@media screen and (min-width: 1680px) {
+
+		.contenedor {
+			width: 1900px; /* or any desired width */
+			margin: 0 auto; /* centers the container on the page */
+			
+		}
 		
+		.contenedor-footer {
+			width: 1900px; /* or any desired width */
+			margin: 0 auto; /* centers the container on the page */
+			
+		}
+
+		.contenedor-articulo {
+			width: 1900px; /* or any desired width */
+			margin: 0 auto; /* centers the container on the page */	
+		}
+
+		.contenedor-gif {
+			width: 1900px; /* or any desired width */
+			margin: 0 auto; /* centers the container on the page */
+			align-items: center;
+			justify-content: center;
+
+		}
+
+			.container {
+				margin: 0px auto;
+				margin-left: 60px;
+				max-width: 100%;
+				width: 1400px;
+				
+		}
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -3501,7 +3529,6 @@ input, select, textarea {
 		background-position: center center;
 		background-size: 1920px;
 		height:475px;
- 		width: 100%;
 		position: relative;
 		
 }
@@ -3529,7 +3556,6 @@ input, select, textarea {
 	background-position: center center;
 	background-size: 1920px;
 	height:475px;
-	width: 100%;
 	margin-top: -65px;
 	margin-bottom: -69px;
 	position: relative;
@@ -3723,7 +3749,7 @@ input, select, textarea {
 				background-position: center center;
 				background-size: 1920px;
 				height:475px;
-				width: 103.9%;
+				width: 103%;
 				margin-left: -60px;
 				margin-right: -60px;
 				margin-top: -55px;
